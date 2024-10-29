@@ -1,0 +1,377 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+    background-color:rgb(0, 0, 0); 
+}
+.principal{
+    background-image: url('/IMG/Fondos/Union@2x.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 25px;
+    height: 750px;
+    margin: 15px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.logo {
+  background-color: #000;
+  border-radius: 0px 0px 25px 0px;
+}
+.logo img{
+  margin-left: 20px;
+  width: 265px;
+  height: 94px;
+}
+
+.nav {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.navlist {
+  display:flex;
+  width: 310px;
+  height: 50px;
+  list-style: none;
+  border:#FFF solid 1px;
+  border-radius: 60px;
+  padding: 10px 15px 10px 15px;
+  gap: 15px;
+
+}
+#home{
+  width: 59px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 29.5px;
+  text-align: left;
+  color: #000;
+  border:#FFF solid 1px;
+  border-radius: 60px;
+  background-color: #FFF;
+}
+#About{
+  width: 90px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 29.5px;
+  text-align: left;
+  color: white;
+}
+
+#contact{
+  width: 96px;
+  height: 30px;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 29.5px;
+  text-align: left;
+  color: white;
+}
+
+.nav-link {
+  
+  text-decoration: none;
+  padding: 5px 10px 5px 10px;
+  gap: 10px;
+  border-radius: 60px;
+}
+
+.nav-link:hover {
+  color: #000;
+  background-color: #FFF;
+}
+
+.cboton {
+  flex: 1;
+  margin-left:490px ;
+  display: flex;
+  justify-content: flex-end;
+}
+.idioma{
+  margin-right: 50px;
+  width: 128px;
+  height: 40px;
+  opacity: 0.5;
+}
+.cboton button {
+  background-color:#000;
+  width: 110px;
+  height: 40px;
+  padding: 10px 30px 10px 30px;
+  color: white;
+  border-radius: 60px;
+  border: 1px solid #FFF;
+  padding: 10px 20px;
+  cursor: pointer;
+  
+}
+
+.cboton button:hover {
+  background-color: #FFF;
+  color: #000;
+}
+
+
+  .Inicio{
+      width: 100%;
+      margin-left: 50px;
+      margin-top: 200px;
+  }
+  .frasep{
+    
+    display: inline;
+    font-size: 96px;
+    line-height: 90.24px;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 20px;
+    background-color: whitesmoke;
+    height: 90px;
+    gap: 10px;
+    border-radius: 30px;
+  }
+  .frases{
+    display: inline;
+    font-size: 96px;
+    line-height: 90.24px;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    background-color: whitesmoke;
+    height: 90px;
+    gap: 10px;
+    border-radius: 30px;
+  }
+  .fraset{
+    display: inline;
+    font-size: 96px;
+    line-height: 90.24px;
+    text-align: left;
+    padding: 5px 10px 5px 10px;
+    color:#FFF;
+    background-color:black;
+    height: 90px;
+    gap: 10px;
+    border-radius: 30px;
+  }
+  #linea1 {
+    
+    border: none;
+    height: 3px;
+    width: 666PX;
+    background-color: #1E1E1E;
+    margin-top: 50px;
+  }
+  .parrafo{
+    width: 666px;
+    height: 107px;
+    
+    padding: 10px;
+    gap: 0px;
+    opacity: 0px;
+  }
+  .frame3{
+    width: 666px;
+    border-radius: 15px 15px 15px 0;
+    padding: 10px 0px 0px 10px;
+    color: #1E1E1E;
+    background: #D9D9D9;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+  .frame4{
+    width: 200px;
+    height: 30px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 0px 0px 15px 15px;
+    color: #1E1E1E;
+    background: #D9D9D9;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+  }
+
+  .personajes{
+    margin-left: 50px;
+    margin-top: 25px;
+  }
+  .texto{
+    width: 806px;
+    height: 377px;
+    gap: 31px; 
+  }
+  .main{
+    color: #FFF;
+    width: 426px;
+    height: 105px;
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 105px;
+    text-align: left;
+  }
+  #linea2{
+    border: none;
+    height: 3px;
+    width: 666PX;
+    background-color: #FFF;
+    margin-top: 120px;
+  }
+  .descripcion{
+    color: #D9D9D9;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22.5px;
+    text-align: left;
+
+  }
+
+  #characters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .image-container {
+    position: relative;
+    margin: 20px;
+    width: 323px;
+    height: 421px;
+    color: #FFF;
+    padding: 10px;
+    background-image: url(/IMG/Fondos/Contenedor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+  .nombre{
+    width: 263px;
+    height: 45px;
+    font-size: 30px;
+    line-height: 45px;
+    margin: auto;
+  }
+  .image {
+    margin:25px 25px;
+    width: 263px;
+    display: block;
+    border-radius: 60px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(/IMG/Fondos/Union.png);
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  .filters {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    color: #FFF;
+    justify-items: flex-end;
+  }
+  .opcion {
+    width: 162px; 
+    height: 40px;
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 60px; 
+    
+    font-size: 16px; 
+    appearance: none; 
+    cursor: pointer; 
+    background-image: url('/IMG/descarga.png'); 
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Posición de la flecha */
+    background-size: 12px; 
+}
+
+  .paginacion {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .paginacion a {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 8px;
+    text-decoration: none;
+    color: #FFF;
+    background-color: #333;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .paginacion a:hover {
+    background-color: #ddd;
+  }
+  
+  .paginacion a.active {
+    background: #959595;
+    color: white;
+    border: 1px solid #02DD73;
+  }
+  footer{
+    background: #3F3F3F;
+    width: 100%;
+  }
+  .frame333{
+    display: flex;
+    width: 80%;
+    height: 53px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin: auto;
+  }
+  .frame333 img{
+    width: 170px;
+    height: 72px;
+  }
+  #linea3 {
+    
+    border: none;
+    height: 3px;
+    width: 80%;
+    
+    background-color:#FFF;
+    margin:auto;
+
+
+
+  }
